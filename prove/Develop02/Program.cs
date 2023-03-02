@@ -4,73 +4,76 @@ class Program
 {
     static void Main(string[] args)
     {
-        DisplayMenu();
-
-        DisplayJournal();
-
-        PromptGemerator();
-
-        WriteJournal();
-
-        SaveJournal();
-
-        QuitJournal();
-    }
-    private void WriteJournal()
-    {
-
-    }
-        
-    private void DisplayJournal()
-    {
-
-    }
-        
-    private void PromptGemerator()
-    {
-
-    }
-
-    private void DisplayMenu();
-    {
         Console.WriteLine("Please select one of the following choices:");
         Console.WriteLine("1. Write");
         Console.WriteLine("2. Display");
         Console.WriteLine("3. Load");
         Console.WriteLine("4. Save");
         Console.WriteLine("5. Quit");
-        Console.Write("What would you like to do? ");
+        Console.Write("What would you like to do?(Enter a number 1-5): ");
         string answer = Console.ReadLine();
+
         
-    } 
-    private void SaveJournal();
-    {
-
     }
-    private void ExitJournal();
-    {
-
-    }
-    
-    while answer = 1 
-    Write write1 = new Write ();
-
-
-    if answer = 2
-
-    if answer = 3
-
-
-    if answer = 4
-
-    if answer = 5
-
-    }
-
-
-
-    
-DateTime theCurrentTime = DateTime.Now;
-string dateText = theCurrentTime.ToShortDateString();
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //     DisplayWelcomeMessage();
+
+    //     int prompMenuChoice = answer();
+
+    //     string promptGenerator()
+
+    //     DisplayResult(answer, entry, date);
+    // }
+
+    // static void DisplayWelcomeMessage()
+    // {
+    //     Console.WriteLine("Welcome to the Journal Writing program!");
+    // }
+
+    // static promptGenerator(){
+
+    // }
+    // static void promptMenuChoice(){
+    //     Console.WriteLine("Please select one of the following choices:");
+    //     Console.WriteLine("1. Write");
+    //     Console.WriteLine("2. Display");
+    //     Console.WriteLine("3. Load");
+    //     Console.WriteLine("4. Save");
+    //     Console.WriteLine("5. Quit");
+    //     Console.Write("What would you like to do?(Enter a number 1-5): ");
+    //     string answer = Console.ReadLine();
+    //     int choice = Int32.Parse(answer);
+    // }
+
+
+//     static string DisplayResult (int answer, string entry, int date){
+//         Console.WriteLine($"On{date}you wrote{answer}{entry}");
+//     }
+    
+
+//     static string Journal(string prompt, string entry)
+//         PromptGenerator = 
+//     }
+// }
